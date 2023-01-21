@@ -1,0 +1,9 @@
+domain: hazelart.fr
+layout:
+- go.kubebuilder.io/v4-alpha
+plugins:
+  manifests.sdk.operatorframework.io/v2: {}
+  scorecard.sdk.operatorframework.io/v2: {}
+projectName: kubernetes-secrets-operator
+repo: github.com/thazelart/kubernetes-secrets-operator
+version: "3"
